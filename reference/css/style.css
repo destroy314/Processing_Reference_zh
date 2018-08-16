@@ -53,6 +53,14 @@ Last Modified: 2014.11.15 by Scott Murray
 	font-style: normal;
 }
 
+@font-face {
+	font-family: '方正正纤黑';
+	src: url(fonts/方正正纤黑.eot),
+		 url(fonts/方正正纤黑.woff) format("woff");
+	font-weight: 1200;
+	font-style: normal;
+}
+
 
 
 /* ================ GLOBAL ================== */
@@ -64,7 +72,7 @@ body {
 	
 	background-color	: #ddd;  /* #FFFFFF; */  /* #333322 */
 	
-	font-family			: 'theSerif', 'Enriqueta', georgia, times, serif; 
+	font-family			: 'theSerif', 'Enriqueta', '方正正纤黑', georgia, times, serif; 
 	
 	-webkit-font-smoothing: antialiased; 
 	-webkit-text-size-adjust: none;
@@ -278,14 +286,14 @@ a.large-link:before {
 }
 
 #header a { 
-	font-family: 'theSerif', 'Enriqueta', georgia, times, sans-serif;
+	font-family: 'theSerif', 'Enriqueta', '方正正纤黑, 'georgia, times, sans-serif;
 	text-decoration: none;
 	border: none;
 	color: white;
 }
 
 #header-f a { 
-	font-family: 'theSerif', 'Enriqueta', georgia, times, sans-serif;
+	font-family: 'theSerif', 'Enriqueta', '方正正纤黑', georgia, times, sans-serif;
 	text-decoration: none;
 	border: none;
 	color: white;
@@ -323,7 +331,7 @@ a.large-link:before {
 	outline: none;
 	height: 18px;
 	background: #fff;
-	font-family: 'theSerif', 'Enriqueta', georgia, times, serif; 
+	font-family: 'theSerif', 'Enriqueta', '方正正纤黑', georgia, times, serif; 
 	font-size: 1em;
 	color: #959595;
 }
@@ -334,7 +342,7 @@ a.large-link:before {
 	outline: none;
 	height: 18px;
 	background: #fff;
-	font-family: 'theSerif', 'Enriqueta', georgia, times, serif; 
+	font-family: 'theSerif', 'Enriqueta', '方正正纤黑', georgia, times, serif; 
 	font-size: 1em;
 	color: #959595;
 }
@@ -455,7 +463,7 @@ h1, h2, h3, h4, h5, h6
 	{
 	/*margin-bottom 		: 5px;*/
 	color				: #5A5A5A; 
-	font-family			: 'theSerif', 'Enriqueta', georgia, times, serif;
+	font-family			: 'theSerif', 'Enriqueta', '方正正纤黑', georgia, times, serif;
 	font-weight			: 400;
 	line-height			: 1.6em;
 	}
@@ -470,12 +478,12 @@ h4, h5, h6
 	/*font-weight			: bold;*/ 
 }
 .large-link { 
-	font-family: 'theSerif', 'Enriqueta', georgia, times, serif;
+	font-family: 'theSerif', 'Enriqueta', '方正正纤黑', georgia, times, serif;
 }
 a.code { color: #2c7bb5; }
 /* dirty italic fix */
 i, em, .italic { 
-	font-family: 'theSerifItalic', 'Enriqueta' !important; 
+	font-family: 'theSerifItalic', 'Enriqueta', '方正正纤黑' !important; 
 	font-style: normal !important; 
 }
 
@@ -561,7 +569,7 @@ li {margin-bottom: 1em; }
 
 dl { margin: 0; }
 dt { /*font-style: italic;*/
-font-family			: 'theSerifItalic', 'Enriqueta'; }
+font-family			: 'theSerifItalic', 'Enriqueta', '方正正纤黑'; }
 dd { margin: 0 0 1em 0; }
 
 .happenings { margin-bottom: 30px; }
@@ -580,7 +588,7 @@ td img { margin: 0; display: block; }
 #Cover .mailing-list,
 #Cover .contact { margin-top: 3em; }
 #Cover .video .video-caption { /*font-style: italic;*/
-font-family: 'theSerifItalic', 'Enriqueta'; }
+font-family: 'theSerifItalic', 'Enriqueta', '方正正纤黑'; }
 #Cover .video .video-caption:first-child { display: inline-block; margin-bottom: 1.5em; }
 
 #Cover .mailing-list input[type="email"],
@@ -590,7 +598,7 @@ font-family: 'theSerifItalic', 'Enriqueta'; }
 	outline: none;
 	height: 20px;
 	padding-left: 4px;
-	font-family: 'theSerif', 'Enriqueta', georgia, times, serif; 
+	font-family: 'theSerif', 'Enriqueta', '方正正纤黑', georgia, times, serif; 
 	font-size: 1em;
 	color: #252525;
 }
@@ -990,7 +998,7 @@ div.ref-col {
 	}
 	#Download #selectForm .select-amount label.last { margin-right: 2px; }
 	#Download .donate-box input[type="submit"]{
-		font-family: 'theSerif', 'Enriqueta', georgia, times, serif;
+		font-family: 'theSerif', 'Enriqueta', '方正正纤黑', georgia, times, serif;
 		-webkit-font-smoothing: antialiased;
 		font-size: 1.7em;
 		color: #2c7bb5;
@@ -1040,7 +1048,7 @@ div.ref-col {
 		#donateForm .payType .or {
 			display: inline-block;
 			/*font-style: italic;*/
-			font-family			: 'theSerifItalic', 'Enriqueta';
+			font-family			: 'theSerifItalic', 'Enriqueta', '方正正纤黑';
 			margin: 0 30px 0 20px;
 		}
 	#donateForm .ccInfo {
