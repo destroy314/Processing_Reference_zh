@@ -90,11 +90,11 @@ rect(30, 20, 55, 55, 3, 6, 12, 18);
 		<tr class="">
 		<th scope="row">描述</th>
 		<td>
-Draws a rectangle to the screen. A rectangle is a four-sided shape with every angle at ninety degrees. By default, the first two parameters set the location of the upper-left corner, the third sets the width, and the fourth sets the height. The way these parameters are interpreted, however, may be changed with the <b>rectMode()</b> function.<br />
+在屏幕上绘制矩形。矩形是四边形，每个角均为90度。默认情况下，前两个参数设置左上角的位置，第三个参数设置宽度，第四个参数设置高度。但是，可以使用<b>rectMode()</b>函数更改这些参数的解释方式。<br />
 <br />
-To draw a rounded rectangle, add a fifth parameter, which is used as the radius value for all four corners.<br />
+要绘制圆角矩形，请添加第五个参数，该参数用作所有四个角的圆弧半径值。<br />
 <br />
-To use a different radius value for each corner, include eight parameters. When using eight parameters, the latter four set the radius of the arc at each corner separately, starting with the top-left corner and moving clockwise around the rectangle.
+要为每个角使用不同的半径值，请使用八个参数。此时后四个参数分别设置每个角的圆弧半径，从左上角开始沿矩形顺时针绕行。
 
 
 </td>
@@ -106,39 +106,39 @@ rect(<kbd>a</kbd>, <kbd>b</kbd>, <kbd>c</kbd>, <kbd>d</kbd>, <kbd>tl</kbd>, <kbd
 
 	<tr class="">	<th scope="row">参数</th><td><table cellpadding="0" cellspacing="0" border="0"><tr class="">
 <th scope="row" class="code">a</th>
-<td>float: x-coordinate of the rectangle by default</td>
+<td>浮点数：默认情况下矩形的x坐标</td>
 </tr>
 <tr class="">
 <th scope="row" class="code">b</th>
-<td>float: y-coordinate of the rectangle by default</td>
+<td>浮点数：默认情况下矩形的y坐标</td>
 </tr>
 <tr class="">
 <th scope="row" class="code">c</th>
-<td>float: width of the rectangle by default</td>
+<td>浮点数：默认情况下矩形的宽度</td>
 </tr>
 <tr class="">
 <th scope="row" class="code">d</th>
-<td>float: height of the rectangle by default</td>
+<td>浮点数：默认情况下矩形的高度</td>
 </tr>
 <tr class="">
 <th scope="row" class="code">r</th>
-<td>float: radii for all four corners</td>
+<td>浮点数：四个角的圆弧半径</td>
 </tr>
 <tr class="">
 <th scope="row" class="code">tl</th>
-<td>float: radius for top-left corner</td>
+<td>浮点数：左上角的圆弧半径</td>
 </tr>
 <tr class="">
 <th scope="row" class="code">tr</th>
-<td>float: radius for top-right corner</td>
+<td>浮点数：右上角的圆弧半径</td>
 </tr>
 <tr class="">
 <th scope="row" class="code">br</th>
-<td>float: radius for bottom-right corner</td>
+<td>浮点数：右下角的圆弧半径</td>
 </tr>
 <tr class="">
 <th scope="row" class="code">bl</th>
-<td>float: radius for bottom-left corner</td>
+<td>浮点数：左下角的圆弧半径</td>
 </tr></table></td>	</tr>
 	<tr class=""><th scope="row">返回</th><td class="code">void</td></tr>
 	<tr class=""><th scope="row">关联</th><td><a class="code" href="rectMode_.html">rectMode()</a><br />
